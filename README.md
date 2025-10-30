@@ -5,7 +5,7 @@ Reproduce the results from *WatchSleepNet: A Novel Model and Pretraining Approac
 
 ## Team
 - Dawoud Mahmud
-- [Teammate Name]
+- Vijay Gopalsamy
 
 ## Goals
 - Reimplement the WatchSleepNet architecture (CNN + TCN + BiLSTM + Attention)
