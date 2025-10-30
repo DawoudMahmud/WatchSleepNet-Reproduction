@@ -14,13 +14,14 @@ Reproduce the results from *WatchSleepNet: A Novel Model and Pretraining Approac
 - Evaluate transfer learning improvements
 
 ## Project Structure
+```
 src/
 ├── data/ # preprocessing DREAMT dataset
 ├── models/ # WatchSleepNet architecture
 ├── training/ # training and fine-tuning
 ├── eval/ # evaluation metrics & plots
 notebooks/ # exploratory work
-
+```
 
 ## Expected Deliverables
 1. Preprocessing scripts for DREAMT data  
