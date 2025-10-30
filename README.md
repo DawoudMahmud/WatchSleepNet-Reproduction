@@ -15,12 +15,26 @@ Reproduce the results from *WatchSleepNet: A Novel Model and Pretraining Approac
 
 ## Project Structure
 ```
-src/
-├── data/ # preprocessing DREAMT dataset
-├── models/ # WatchSleepNet architecture
-├── training/ # training and fine-tuning
-├── eval/ # evaluation metrics & plots
-notebooks/ # exploratory work
+WatchSleepNet-Reproduction/
+│
+├── configs/ # Config files for experiments and paths
+├── data/ # Data folders (not tracked in Git)
+│ ├── raw/ # Original DREAMT dataset
+│ ├── interim/ # Intermediate extracted IBI or cleaned data
+│ └── processed/ # Final tensors ready for training
+│
+├── notebooks/ # Colab/Jupyter notebooks for exploration
+│
+├── src/ # Main source code
+│ ├── data/ # Preprocessing and data loading
+│ ├── models/ # WatchSleepNet architecture
+│ ├── training/ # Training and fine-tuning scripts
+│ ├── eval/ # Evaluation metrics and plots
+│ └── utils/ # Helper functions and configs
+│
+├── reports/ # Report drafts, figures, and final paper
+├── requirements.txt # Python dependencies
+└── README.md # Project overview and documentation
 ```
 
 ## Expected Deliverables
