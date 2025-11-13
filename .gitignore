@@ -1,0 +1,19 @@
+# Large data files
+data/raw/*.csv
+data/processed/*.npz
+
+# Model checkpoints
+results/models/*.pth
+*.pth
+*.h5
+*.ckpt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
