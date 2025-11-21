@@ -1,0 +1,54 @@
+{
+  "split": "Validation",
+  "accuracy": 61.18279569892473,
+  "precision_macro": 43.97659301671855,
+  "recall_macro": 41.82527238799878,
+  "f1_macro": 39.7181767332789,
+  "cohen_kappa": 0.09833743122986582,
+  "per_class": {
+    "precision": [
+      27.225130890052355,
+      67.2046481601033,
+      37.5
+    ],
+    "recall": [
+      30.23255813953488,
+      85.7495881383855,
+      9.49367088607595
+    ],
+    "f1": [
+      28.650137741046834,
+      75.3528773072747,
+      15.151515151515152
+    ],
+    "support": [
+      172,
+      1214,
+      474
+    ]
+  },
+  "confusion_matrix": [
+    [
+      52,
+      120,
+      0
+    ],
+    [
+      98,
+      1041,
+      75
+    ],
+    [
+      41,
+      388,
+      45
+    ]
+  ],
+  "model_path": "results/models/best_model.pth",
+  "config": {
+    "use_tcn": true,
+    "use_attention": true,
+    "hidden_dim": 128,
+    "num_channels": 64
+  }
+}

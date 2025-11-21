@@ -9,12 +9,12 @@ import numpy as np
 from typing import List, Tuple, Dict
 from pathlib import Path
 import sys
-
-sys.path.append('configs')
+sys.path.append('configs')  # Relative to where you run from (project root)
 from config import BATCH_SIZE, RANDOM_SEED
 
 
 class SleepDataset(Dataset):
+    # ... rest of the code stays the same
     """
     Dataset for sleep stage classification
     Each sample is a window containing multiple epochs
