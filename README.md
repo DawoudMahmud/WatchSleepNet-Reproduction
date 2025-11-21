@@ -3,7 +3,7 @@
 ## Objective
 Reproduce the results from *WatchSleepNet: A Novel Model and Pretraining Approach for Advancing Sleep Staging with Smartwatches* (Wang et al., CHIL 2025).
 
-## Team
+## Team K4
 - Dawoud Mahmud
 - Vijay Gopalsamy
 
