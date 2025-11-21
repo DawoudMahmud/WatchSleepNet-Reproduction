@@ -93,8 +93,8 @@ NUM_LAYERS = 2  # LSTM layers
 TCN_LAYERS = 3  # Number of TCN layers
 
 # Ablation options
-USE_TCN = True  # Use Temporal Convolutional Network
-USE_ATTENTION = True  # Use Multi-head Attention
+USE_TCN = False  # Use Temporal Convolutional Network
+USE_ATTENTION = False  # Use Multi-head Attention
 
 # Output
 N_CLASSES = 3  # Wake, NREM, REM (simplified)
